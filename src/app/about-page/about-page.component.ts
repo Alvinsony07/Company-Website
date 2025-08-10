@@ -7,7 +7,8 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './about-page.component.html',
-  styleUrl: './about-page.component.css'
+ styleUrls: ['./about-page.component.css']
+
 })
 export class AboutPageComponent implements OnInit {
   
@@ -18,7 +19,7 @@ export class AboutPageComponent implements OnInit {
     id: 1,
     name: 'Alvin Sony',
     role: 'Founder & CEO',
-    image: 'https://pbs.twimg.com/media/GsKc5D7aUAAhY-F?format=jpg&name=small',
+    image: 'assets/images/alvinsony.jpg',
     bio: 'Tech enthusiast with a passion for AI and clean web architecture.',
     linkedin: 'https://www.linkedin.com/in/alvin-sony/',
     twitter: 'https://x.com/alvin_sony3'
